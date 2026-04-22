@@ -119,19 +119,22 @@ class TinkerModelClient(BaseModelClient):
         import tinker  # type: ignore
 
         sampling_client, renderer = self._ensure()
-        # Render the prompt; Tinker's sampling takes token IDs.
-        token_ids = renderer.build_generation_prompt(messages)
+        prompt = renderer.build_generation_prompt(messages)
+        # build_generation_prompt returns either a list[int] or a ModelInput depending on version
+        if not isinstance(prompt, tinker.ModelInput):
+            prompt = tinker.ModelInput.from_ints(prompt)
         sampling_params = tinker.SamplingParams(
             max_tokens=max_tokens, temperature=temperature, stop=renderer.get_stop_sequences()
         )
         future = sampling_client.sample(
-            prompt=tinker.ModelInput.from_ints(token_ids),
+            prompt=prompt,
             sampling_params=sampling_params,
             num_samples=1,
         )
         result = future.result()
         out_tokens = result.sequences[0].tokens
-        return renderer.parse_generation(out_tokens).strip()
+        parsed, _ = renderer.parse_response(out_tokens)
+        return (parsed.get("content") or "").strip()
 
 
 @dataclass

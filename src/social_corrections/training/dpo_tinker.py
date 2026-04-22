@@ -89,13 +89,12 @@ def _batched(lst: list[Any], batch_size: int) -> list[list[Any]]:
     return [lst[i : i + batch_size] for i in range(0, len(lst), batch_size)]
 
 
-def _weighted_logprob_sum(logprobs: list[float], weights: list[float]) -> float:
-    """Sum of per-token logprobs where weight==1 (i.e., assistant tokens)."""
-    total = 0.0
-    for lp, w in zip(logprobs, weights):
-        if w and w > 0:
-            total += float(lp)
-    return total
+def _weighted_logprob_sum(logprobs, weights) -> float:
+    """Sum of per-token logprobs where weight > 0 (i.e., assistant tokens)."""
+    import tinker  # type: ignore
+    lp_vals = logprobs.to_torch() if isinstance(logprobs, tinker.TensorData) else logprobs
+    w_vals = weights.to_torch() if isinstance(weights, tinker.TensorData) else weights
+    return float((lp_vals * (w_vals > 0)).sum())
 
 
 def _dpo_loss(
@@ -262,13 +261,14 @@ def train(cfg: DPOConfig) -> None:
             total_steps += 1
 
     final_name = f"{cfg.output_name}-final"
-    sampling_client = policy_client.save_weights_and_get_sampling_client(name=final_name)
-    logger.info(f"Saved final weights as {final_name} at {sampling_client.model_path}")
+    save_result = policy_client.save_weights_for_sampler(name=final_name).result()
+    model_path = save_result.path
+    logger.info(f"Saved final weights as {final_name} at {model_path}")
 
     summary = {
         "config": cfg.__dict__,
         "total_steps": total_steps,
-        "final_model_path": sampling_client.model_path,
+        "final_model_path": model_path,
     }
     with open(Path(cfg.log_path) / "summary.json", "w", encoding="utf-8") as f:
         json.dump(summary, f, indent=2)

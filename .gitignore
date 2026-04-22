@@ -20,8 +20,12 @@ dist/
 .venv/
 venv/
 
+# Installed dependencies
+src/tinker-cookbook/
+
 # Local data + artifacts
-data/processed/
+data/processed/*
+!data/processed/plots/
 data/raw/
 models/
 /tmp/

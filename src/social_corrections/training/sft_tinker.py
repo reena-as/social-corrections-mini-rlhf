@@ -176,15 +176,16 @@ def train(cfg: SFTConfig) -> None:
 
     # Final save + sampling client
     final_name = f"{cfg.output_name}-final"
-    sampling_client = training_client.save_weights_and_get_sampling_client(name=final_name)
-    logger.info(f"Saved final weights as {final_name} at {sampling_client.model_path}")
+    save_result = training_client.save_weights_for_sampler(name=final_name).result()
+    model_path = save_result.path
+    logger.info(f"Saved final weights as {final_name} at {model_path}")
 
     # Log summary
     summary = {
         "config": cfg.__dict__,
         "total_steps": total_steps,
         "best_val_nll": best_val if best_val != float("inf") else None,
-        "final_model_path": sampling_client.model_path,
+        "final_model_path": model_path,
     }
     with open(Path(cfg.log_path) / "summary.json", "w", encoding="utf-8") as f:
         json.dump(summary, f, indent=2)
