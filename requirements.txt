@@ -1,0 +1,29 @@
+# Core (no heavy deps). The package imports successfully with just these.
+# Install:
+#     pip install -e .
+# The below list covers the full pipeline.
+
+# --- Data / evaluation ---
+pandas>=2.0
+datasets>=2.19
+scikit-learn>=1.4
+
+# --- Inference ---
+openai>=1.30
+
+# --- Plotting ---
+matplotlib>=3.8
+
+# --- Tests ---
+pytest>=8.0
+
+# --- Optional: HF local inference. Uncomment if you need it. ---
+# transformers>=4.41
+# torch>=2.2
+# accelerate>=0.30
+
+# --- Tinker ---
+# Install per the official instructions at
+# https://tinker-docs.thinkingmachines.ai and then ALSO:
+#     pip install -e "git+https://github.com/thinking-machines-lab/tinker-cookbook@main#egg=tinker_cookbook"
+# The training scripts import from `tinker` and `tinker_cookbook`.

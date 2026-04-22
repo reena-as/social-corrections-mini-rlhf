@@ -1,0 +1,33 @@
+# DPO configuration for Llama-3.1-8B-Instruct on Tinker.
+# Run (from-scratch DPO on the base model):
+#   python scripts/train_dpo.py \
+#       --train-path data/processed/train_dpo.jsonl \
+#       --val-path data/processed/val_dpo.jsonl \
+#       --model-name meta-llama/Llama-3.1-8B-Instruct \
+#       --lora-rank 32 --learning-rate 1e-5 --num-epochs 2 --batch-size 4 \
+#       --dpo-beta 0.1 \
+#       --output-name social-corrections-dpo-llama8b
+#
+# To run the SFT->DPO variant, pass --load-sft-checkpoint <path> (from the
+# summary.json of your SFT run).
+
+model:
+  name: meta-llama/Llama-3.1-8B-Instruct
+  lora_rank: 32
+
+training:
+  learning_rate: 1.0e-5
+  num_epochs: 2
+  batch_size: 4             # pairs per batch (so 2*batch_size forward passes)
+  max_length: 2048
+  dpo_beta: 0.1
+  eval_every: 50
+  save_every: 100
+
+data:
+  train_path: data/processed/train_dpo.jsonl
+  val_path:   data/processed/val_dpo.jsonl
+
+output:
+  name: social-corrections-dpo-llama8b
+  log_path: /tmp/tinker-social-corrections/dpo

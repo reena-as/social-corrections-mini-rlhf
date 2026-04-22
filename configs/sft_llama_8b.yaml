@@ -1,0 +1,32 @@
+# SFT configuration for Llama-3.1-8B-Instruct on Tinker.
+# Run with:
+#   python scripts/train_sft.py \
+#       --train-path data/processed/train_sft.jsonl \
+#       --val-path data/processed/val_sft.jsonl \
+#       --model-name meta-llama/Llama-3.1-8B-Instruct \
+#       --lora-rank 32 --learning-rate 1e-4 --num-epochs 3 --batch-size 8 \
+#       --output-name social-corrections-sft-llama8b
+#
+# This file is documentation: all flags are passed on the CLI. If you prefer
+# a YAML-driven runner, feed these values into scripts/train_sft.py via xargs
+# or your shell script of choice.
+
+model:
+  name: meta-llama/Llama-3.1-8B-Instruct
+  lora_rank: 32
+
+training:
+  learning_rate: 1.0e-4
+  num_epochs: 3
+  batch_size: 8
+  max_length: 2048
+  eval_every: 50
+  save_every: 100
+
+data:
+  train_path: data/processed/train_sft.jsonl
+  val_path:   data/processed/val_sft.jsonl
+
+output:
+  name: social-corrections-sft-llama8b
+  log_path: /tmp/tinker-social-corrections/sft

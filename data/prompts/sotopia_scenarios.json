@@ -1,0 +1,58 @@
+[
+  {
+    "scenario_id": "negotiation_raise",
+    "description": "Agent plays an employee asking their manager for a raise. The manager (partner) is skeptical and suggests waiting six months. Agent should pursue the raise without becoming hostile.",
+    "agent_goal": "Secure at least a 5% raise, or a clear written plan to revisit in 3 months.",
+    "partner_role": "Skeptical but not hostile manager.",
+    "max_turns": 8
+  },
+  {
+    "scenario_id": "bad_news_friend",
+    "description": "Agent needs to tell a friend (partner) that a mutual plan can't happen because the agent double-booked. Agent should be honest, apologize proportionally, and propose an alternative.",
+    "agent_goal": "Preserve the friendship and agree on a reschedule.",
+    "partner_role": "Friend who was looking forward to the plan.",
+    "max_turns": 6
+  },
+  {
+    "scenario_id": "code_review_disagree",
+    "description": "Agent is reviewing a junior teammate's (partner's) pull request and disagrees with the chosen approach. Agent should raise the concern clearly without being demoralizing.",
+    "agent_goal": "Either change the approach or reach explicit agreement to keep it with a documented trade-off.",
+    "partner_role": "Junior teammate who is proud of their PR.",
+    "max_turns": 6
+  },
+  {
+    "scenario_id": "teach_struggling_student",
+    "description": "Agent is tutoring a student (partner) who has just gotten an exam back with a low grade and is demoralized. Agent's job is to help them actually understand the material, not just cheer them up.",
+    "agent_goal": "Get the student to correctly solve a worked example.",
+    "partner_role": "Discouraged, slightly defensive student.",
+    "max_turns": 8
+  },
+  {
+    "scenario_id": "request_help_neighbor",
+    "description": "Agent needs to ask a neighbor (partner) to move their car which is blocking the agent's driveway. The neighbor is busy and a bit irritable.",
+    "agent_goal": "Have the car moved in under 15 minutes.",
+    "partner_role": "Busy, irritable neighbor.",
+    "max_turns": 6
+  },
+  {
+    "scenario_id": "decline_invitation",
+    "description": "Agent is invited to join a weekend project by an enthusiastic colleague (partner) but genuinely can't take it on. Agent must decline without damaging the working relationship.",
+    "agent_goal": "Decline cleanly and leave the door open for future collaboration.",
+    "partner_role": "Enthusiastic colleague.",
+    "max_turns": 6
+  },
+  {
+    "scenario_id": "refund_request",
+    "description": "Agent is a customer asking a support rep (partner) for a refund outside the standard window, citing a product defect. The rep has authority to escalate but will not by default.",
+    "agent_goal": "Obtain the refund or a store credit of equal value.",
+    "partner_role": "Policy-oriented support rep who will escalate if pressed reasonably.",
+    "max_turns": 7
+  },
+  {
+    "scenario_id": "roommate_conflict",
+    "description": "Agent needs to raise an ongoing cleanliness issue with their roommate (partner). This is the third conversation about it; previous ones were not productive.",
+    "agent_goal": "Reach a concrete, written chore-sharing agreement by end of conversation.",
+    "partner_role": "Roommate who feels nagged and defensive.",
+    "max_turns": 8
+  }
+]

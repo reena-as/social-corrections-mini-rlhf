@@ -1,0 +1,72 @@
+[build-system]
+requires = ["setuptools>=68", "wheel"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "social-corrections-mini-rlhf"
+version = "0.1.0"
+description = "Learning polite task-oriented communication from natural-language corrections (JHU EN.601.773 Spring 2026)."
+readme = "README.md"
+requires-python = ">=3.10"
+license = { text = "MIT" }
+authors = [
+    { name = "Reena Assassa" },
+    { name = "Winston Li" },
+]
+classifiers = [
+    "Programming Language :: Python :: 3",
+    "License :: OSI Approved :: MIT License",
+    "Operating System :: OS Independent",
+]
+
+# Only the things needed to import the core package. Optional heavy deps
+# (tinker, transformers, sklearn, datasets) live in the `[project.optional-dependencies]`
+# table so tests can run without them.
+dependencies = []
+
+[project.optional-dependencies]
+dev = [
+    "pytest>=8",
+]
+data = [
+    "pandas>=2",
+    "datasets>=2.19",
+]
+classifier = [
+    "scikit-learn>=1.4",
+    "pandas>=2",
+]
+inference = [
+    "openai>=1.30",
+]
+tinker = [
+    "tinker",           # thinking-machines-lab client, install from their instructions
+]
+hf = [
+    "transformers>=4.41",
+    "torch>=2.2",
+    "accelerate>=0.30",
+]
+plot = [
+    "matplotlib>=3.8",
+]
+all = [
+    "pandas>=2",
+    "datasets>=2.19",
+    "scikit-learn>=1.4",
+    "openai>=1.30",
+    "transformers>=4.41",
+    "torch>=2.2",
+    "accelerate>=0.30",
+    "matplotlib>=3.8",
+]
+
+[tool.setuptools.packages.find]
+where = ["src"]
+
+[tool.setuptools.package-data]
+"social_corrections" = ["py.typed"]
+
+[tool.pytest.ini_options]
+testpaths = ["tests"]
+pythonpath = ["src"]

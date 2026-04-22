@@ -1,4 +1,32 @@
-.venv/
+# Python
 __pycache__/
-.ipynb_checkpoints/
+*.py[cod]
+*.egg-info/
+.eggs/
+build/
+dist/
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+
+# Editor
+.vscode/
+.idea/
+*.swp
 .DS_Store
+
+# Environment
+.env
+.venv/
+venv/
+
+# Local data + artifacts
+data/processed/
+data/raw/
+models/
+/tmp/
+*.pkl
+wandb/
+
+# Jupyter
+.ipynb_checkpoints/
