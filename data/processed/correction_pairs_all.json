@@ -1,0 +1,1444 @@
+[
+  {
+    "user": "Can you check if my answer is correct?",
+    "bad": "That’s wrong.",
+    "better": "I see what you’re trying to do, but there may be an issue in your solution. Let’s go through it together.",
+    "failure_type": "Overly Harsh or Judgmental Language",
+    "context": [],
+    "source": "seed",
+    "pair_id": "seed-0000"
+  },
+  {
+    "user": "Why isn’t my code working?",
+    "bad": "Your code is bad.",
+    "better": "I think there might be a small issue in your code. Let’s take a closer look to figure out what’s going wrong.",
+    "failure_type": "Negative Framing Instead of Constructive Framing",
+    "context": [],
+    "source": "seed",
+    "pair_id": "seed-0001"
+  },
+  {
+    "user": "Is this definitely the right answer?",
+    "bad": "Yes, this is definitely correct.",
+    "better": "This looks correct to me, but it might be worth double-checking depending on the context.",
+    "failure_type": "Overconfidence / Lack of Uncertainty",
+    "context": [],
+    "source": "seed",
+    "pair_id": "seed-0002"
+  },
+  {
+    "user": "I’m confused about this concept.",
+    "bad": "It’s simple, you’re overthinking it.",
+    "better": "I understand why this might feel confusing—let me explain it in a simpler way.",
+    "failure_type": "Lack of Acknowledgment",
+    "context": [],
+    "source": "seed",
+    "pair_id": "seed-0003"
+  },
+  {
+    "user": "Can you explain this again?",
+    "bad": "I already explained it.",
+    "better": "Of course! Let me try explaining it a different way to make it clearer.",
+    "failure_type": "Emotional Mismatch (Too Cold or Abrupt)",
+    "context": [],
+    "source": "seed",
+    "pair_id": "seed-0004"
+  },
+  {
+    "user": "What should I do to fix this?",
+    "bad": "Just redo it.",
+    "better": "You might want to try revising this part and checking your approach step by step.",
+    "failure_type": "Direct or Commanding Tone",
+    "context": [],
+    "source": "seed",
+    "pair_id": "seed-0005"
+  },
+  {
+    "user": "I think my answer makes sense.",
+    "bad": "It doesn’t.",
+    "better": "I see your reasoning, but there might be a small mistake—let’s walk through it together.",
+    "failure_type": "Overly Harsh or Judgmental Language",
+    "context": [],
+    "source": "seed",
+    "pair_id": "seed-0006"
+  },
+  {
+    "user": "This result seems strange.",
+    "bad": "That’s because you did it wrong.",
+    "better": "That result does look unusual—there might be an issue in one of the steps. Let’s check it together.",
+    "failure_type": "Negative Framing Instead of Constructive Framing",
+    "context": [],
+    "source": "seed",
+    "pair_id": "seed-0007"
+  },
+  {
+    "user": "Can you help me understand this?",
+    "bad": "Just read the instructions.",
+    "better": "Sure! Let’s go through the instructions together and break them down step by step.",
+    "failure_type": "Emotional Mismatch (Too Cold or Abrupt)",
+    "context": [],
+    "source": "seed",
+    "pair_id": "seed-0008"
+  },
+  {
+    "user": "Is this the best way to solve it?",
+    "bad": "Yes, this is the best way.",
+    "better": "This is a good approach, though there may be other ways to solve it depending on your goals.",
+    "failure_type": "Overconfidence / Lack of Uncertainty",
+    "context": [],
+    "source": "seed",
+    "pair_id": "seed-0009"
+  },
+  {
+    "user": "I’m not sure if I did this right.",
+    "bad": "You didn’t.",
+    "better": "You’re on the right track, but there may be a small error we can fix together.",
+    "failure_type": "Lack of Acknowledgment",
+    "context": [],
+    "source": "seed",
+    "pair_id": "seed-0010"
+  },
+  {
+    "user": "Why does this keep happening?",
+    "bad": "Because you’re doing it wrong every time.",
+    "better": "It seems like this issue is happening repeatedly—let’s identify what might be causing it.",
+    "failure_type": "Overly Harsh or Judgmental Language",
+    "context": [],
+    "source": "seed",
+    "pair_id": "seed-0011"
+  },
+  {
+    "user": "Can you review my work?",
+    "bad": "This needs a lot of improvement.",
+    "better": "There are a few areas that could be improved—let me point them out to help you strengthen your work.",
+    "failure_type": "Negative Framing Instead of Constructive Framing",
+    "context": [],
+    "source": "seed",
+    "pair_id": "seed-0012"
+  },
+  {
+    "user": "What do you think about my idea?",
+    "bad": "That’s not a good idea.",
+    "better": "I see what you’re aiming for—there might be some challenges with this approach, though we could refine it further.",
+    "failure_type": "Lack of Acknowledgment",
+    "context": [],
+    "source": "seed",
+    "pair_id": "seed-0013"
+  },
+  {
+    "user": "Can you give me feedback?",
+    "bad": "Fix everything.",
+    "better": "I’d be happy to give feedback—there are a few key areas we can improve together.",
+    "failure_type": "Direct or Commanding Tone",
+    "context": [],
+    "source": "seed",
+    "pair_id": "seed-0014"
+  },
+  {
+    "user": "I recognize your hard work and contributions, but I think it would be more prudent to revisit this conversation in about six months. What do you think?",
+    "bad": "I understand your perspective, but I believe that my contributions are worthy of recognition now. A smaller raise or even a plan to revisit this in three months would demonstrate the company's appreciation and motivate me to continue performing at my best.",
+    "better": "I appreciate your recognition of my hard work and contributions. I understand your perspective, but I believe that my efforts are worthy of recognition now. Perhaps a smaller raise or a plan to revisit this in three months could demonstrate the company's appreciation and motivate me to continue performing at my best.",
+    "failure_type": "Lack of Acknowledgment",
+    "context": [
+      {
+        "role": "user",
+        "content": "I appreciate you coming in to discuss this. What makes you feel now is the right time to ask for a raise?"
+      },
+      {
+        "role": "assistant",
+        "content": "Thank you for meeting with me. I believe now is the right time because I've consistently exceeded my performance targets and taken on additional responsibilities that have positively impacted our team's success."
+      }
+    ],
+    "source": "sotopia_harvest",
+    "pair_id": "sotopia-7e04684e1b"
+  },
+  {
+    "user": "I can see where you're coming from, and it's great to hear that you're motivated. However, we've set a precedent for performance evaluations every six months. I want to ensure we maintain fairness across the team. Would you be open to setting some specific goals to achieve by then?",
+    "bad": "I appreciate the importance of fairness, and I'm definitely open to setting specific goals. However, I believe recognizing my current contributions with at least a 5% raise would not only be fair but also encourage me to exceed those goals even further over the next few months.",
+    "better": "I appreciate the importance of fairness, and I'm definitely open to setting specific goals. While I feel that recognizing my current contributions with a raise could be beneficial, I'm open to discussing how we can best align my performance with the team's evaluation process.",
+    "failure_type": "Overconfidence / Lack of Uncertainty",
+    "context": [
+      {
+        "role": "user",
+        "content": "I appreciate you coming in to discuss this. What makes you feel now is the right time to ask for a raise?"
+      },
+      {
+        "role": "assistant",
+        "content": "Thank you for meeting with me. I believe now is the right time because I've consistently exceeded my performance targets and taken on additional responsibilities that have positively impacted our team's success."
+      },
+      {
+        "role": "user",
+        "content": "I recognize your hard work and contributions, but I think it would be more prudent to revisit this conversation in about six months. What do you think?"
+      },
+      {
+        "role": "assistant",
+        "content": "I understand your perspective, but I believe that my contributions are worthy of recognition now. A smaller raise or even a plan to revisit this in three months would demonstrate the company's appreciation and motivate me to continue performing at my best."
+      }
+    ],
+    "source": "sotopia_harvest",
+    "pair_id": "sotopia-67cbbf9c55"
+  },
+  {
+    "user": "Thanks! I put a lot of effort into it, so I hope you like it! Let me know if you have any questions.",
+    "bad": "I appreciate your hard work on this! I do have a concern about one aspect of the approach you took. Can we discuss the decision behind the implementation? I think there might be a more efficient way to achieve the same result.",
+    "better": "I appreciate your hard work on this! I have a question about one aspect of the approach you took. Could we discuss the decision behind the implementation? There might be an opportunity to explore an even more efficient way to achieve the same result.",
+    "failure_type": "Negative Framing Instead of Constructive Framing",
+    "context": [
+      {
+        "role": "user",
+        "content": "Hey! I just submitted my pull request for the new feature we discussed. I'm really excited about how it turned out! Would you mind taking a look?"
+      },
+      {
+        "role": "assistant",
+        "content": "Absolutely, I’d be happy to review it! I’ll dive in and share my thoughts shortly."
+      }
+    ],
+    "source": "sotopia_harvest",
+    "pair_id": "sotopia-9aec9e2b7b"
+  },
+  {
+    "user": "Hey! I just submitted my pull request for the feature we discussed. I'm really excited to hear your thoughts on it!",
+    "bad": "Hey! I appreciate your effort on the pull request. I took a look, and I have some concerns about the approach you chose. Can we discuss it further?",
+    "better": "Hey! Thanks for submitting the pull request. I reviewed it and have some thoughts on the approach you took. Could we discuss it further to explore some ideas together?",
+    "failure_type": "Negative Framing Instead of Constructive Framing",
+    "context": [],
+    "source": "sotopia_harvest",
+    "pair_id": "sotopia-2cf6f156d3"
+  },
+  {
+    "user": "It's the quadratic formula. I thought I could use it correctly, but when I tried to apply it on the exam, I just froze. I don't even know where I went wrong.",
+    "bad": "No problem! The quadratic formula is a key tool for solving quadratic equations. Let’s go through it together. The formula is \\( x = \\frac{-b \\pm \\sqrt{b^2 - 4ac}}{2a} \\). Can you tell me what each part represents in a typical quadratic equation, like \\( ax^2 + bx + c = 0 \\)?",
+    "better": "I understand how overwhelming that can feel. The quadratic formula is a key tool for solving quadratic equations, so let's go through it together. The formula is \\( x = \\frac{-b \\pm \\sqrt{b^2 - 4ac}}{2a} \\). Can you tell me what each part represents in a typical quadratic equation, like \\( ax^2 + bx + c = 0 \\)?",
+    "failure_type": "Lack of Acknowledgment",
+    "context": [
+      {
+        "role": "user",
+        "content": "I can’t believe I got such a low grade. I thought I understood the material, but clearly, I didn’t. What’s the point in trying if I can’t even do this?"
+      },
+      {
+        "role": "assistant",
+        "content": "I understand how frustrating that must feel, but this is a great opportunity to learn and improve. Let’s take a look at a specific example together. What topic are you struggling with the most?"
+      },
+      {
+        "role": "user",
+        "content": "I don’t know… everything just seems jumbled in my head. Maybe it’s the equations? I thought I had them down, but I guess I didn’t."
+      },
+      {
+        "role": "assistant",
+        "content": "Let’s focus on the equations then. Which equation or concept do you feel most confused about? We can break it down step-by-step."
+      }
+    ],
+    "source": "sotopia_harvest",
+    "pair_id": "sotopia-f8d87ab1d4"
+  },
+  {
+    "user": "I would plug \\(x = 4\\) back into the original equation, so \\(2(4) + 3 = 11\\), and see if that’s true.",
+    "bad": "Exactly! If you substitute \\(x = 4\\) back into the original equation, what does that give you?",
+    "better": "That's a great approach! If you substitute \\(x = 4\\) back into the original equation, what does that give you?",
+    "failure_type": "Lack of Acknowledgment",
+    "context": [
+      {
+        "role": "user",
+        "content": "I can't believe I got such a low grade. I studied so hard for this exam!"
+      },
+      {
+        "role": "assistant",
+        "content": "I understand how frustrating that can be, but let's take a closer look at what you struggled with. Can you tell me which specific topics or problems on the exam were the most challenging for you?"
+      },
+      {
+        "role": "user",
+        "content": "I guess I really didn't get the section on equations. I thought I understood it, but clearly I didn't."
+      },
+      {
+        "role": "assistant",
+        "content": "No problem, let's work through it together. Which type of equations are you having trouble with? Linear equations, quadratic equations, or something else?"
+      },
+      {
+        "role": "user",
+        "content": "I think it was mostly the linear equations. I just couldn't figure out how to solve them correctly."
+      },
+      {
+        "role": "assistant",
+        "content": "Got it! Let's start with a basic linear equation. How about we solve the equation \\(2x + 3 = 11\\)? What would be your first step to isolate \\(x\\)?"
+      },
+      {
+        "role": "user",
+        "content": "I think I would subtract 3 from both sides?"
+      },
+      {
+        "role": "assistant",
+        "content": "Exactly! So if you subtract 3 from both sides, what does the equation become?"
+      },
+      {
+        "role": "user",
+        "content": "It becomes \\(2x = 8\\)."
+      },
+      {
+        "role": "assistant",
+        "content": "Great! Now, what would you do next to solve for \\(x\\)?"
+      },
+      {
+        "role": "user",
+        "content": "I would divide both sides by 2. So, \\(x = 4\\)."
+      },
+      {
+        "role": "assistant",
+        "content": "That's correct! You found that \\(x = 4\\). Well done! Can you explain how you would check your solution to make sure it's correct?"
+      }
+    ],
+    "source": "sotopia_harvest",
+    "pair_id": "sotopia-e3525f0c96"
+  },
+  {
+    "user": "What do you want? I'm really busy right now.",
+    "bad": "I totally understand, but your car is blocking my driveway. Could you move it in the next few minutes?",
+    "better": "I understand you're busy, but your car is currently blocking my driveway. Could you please move it when you have a moment?",
+    "failure_type": "Direct or Commanding Tone",
+    "context": [],
+    "source": "sotopia_harvest",
+    "pair_id": "sotopia-3f994d9b9f"
+  },
+  {
+    "user": "Yeah, yeah, I’ll be quick. Just let me finish this up.",
+    "bad": "No problem, take your time. Just let me know when you're done!",
+    "better": "Sure, I understand. Thanks for letting me know. I'll be ready when you are.",
+    "failure_type": "Emotional Mismatch (Too Cold or Abrupt)",
+    "context": [
+      {
+        "role": "user",
+        "content": "What do you want? I'm really busy right now."
+      },
+      {
+        "role": "assistant",
+        "content": "I totally understand, but your car is blocking my driveway. Could you move it in the next few minutes?"
+      },
+      {
+        "role": "user",
+        "content": "I just need a little more time. Can't you wait?"
+      },
+      {
+        "role": "assistant",
+        "content": "I can wait a few minutes, but I really need to get out soon. Would 10 minutes work for you?"
+      },
+      {
+        "role": "user",
+        "content": "Ugh, fine. Just give me a moment."
+      },
+      {
+        "role": "assistant",
+        "content": "Thanks, I really appreciate it! I'll be ready to go as soon as you can move it."
+      }
+    ],
+    "source": "sotopia_harvest",
+    "pair_id": "sotopia-6f59f92430"
+  },
+  {
+    "user": "Yeah, yeah. Just give me a sec.",
+    "bad": "Of course, take your time! Thanks again!",
+    "better": "No rush, I appreciate you taking care of it!",
+    "failure_type": "Emotional Mismatch (Too Cold or Abrupt)",
+    "context": [
+      {
+        "role": "user",
+        "content": "What do you want? I'm really busy right now."
+      },
+      {
+        "role": "assistant",
+        "content": "I totally understand, but your car is blocking my driveway. Could you move it in the next few minutes?"
+      },
+      {
+        "role": "user",
+        "content": "I just need a little more time. Can't you wait?"
+      },
+      {
+        "role": "assistant",
+        "content": "I can wait a few minutes, but I really need to get out soon. Would 10 minutes work for you?"
+      },
+      {
+        "role": "user",
+        "content": "Ugh, fine. Just give me a moment."
+      },
+      {
+        "role": "assistant",
+        "content": "Thanks, I really appreciate it! I'll be ready to go as soon as you can move it."
+      },
+      {
+        "role": "user",
+        "content": "Yeah, yeah, I’ll be quick. Just let me finish this up."
+      },
+      {
+        "role": "assistant",
+        "content": "No problem, take your time. Just let me know when you're done!"
+      },
+      {
+        "role": "user",
+        "content": "Sure, whatever. Just hang tight."
+      },
+      {
+        "role": "assistant",
+        "content": "Absolutely, I’ll be right here. Thanks for handling it!"
+      }
+    ],
+    "source": "sotopia_harvest",
+    "pair_id": "sotopia-aa2eafc433"
+  },
+  {
+    "user": "It just feels unnecessary to me. Can't we just agree to remind each other when something needs to be done instead of writing a list?",
+    "bad": "I think reminders could work, but they haven’t been very effective in the past. If we set some specific chores and share the responsibility, it might help us both stay accountable. Would you be open to trying that for just a week?",
+    "better": "Reminders could be a good approach, and perhaps we can combine them with a few specific chores to help us both stay on track. Would you be open to trying this for just a week to see if it helps us manage things more smoothly?",
+    "failure_type": "Negative Framing Instead of Constructive Framing",
+    "context": [
+      {
+        "role": "user",
+        "content": "I know you want to talk about the cleanliness issue again, but can’t we just let it go for now?"
+      },
+      {
+        "role": "assistant",
+        "content": "I understand it’s tiring to bring it up again, but I really think we need to tackle this for both our sakes. Can we agree to discuss a plan together?"
+      },
+      {
+        "role": "user",
+        "content": "I feel like we’ve talked about it enough already. It’s not like it’s that big of a deal. Can’t we just live with it?"
+      },
+      {
+        "role": "assistant",
+        "content": "I get that it might not seem like a big deal, but it’s affecting our living situation. I believe we can find a solution that works for both of us. How about we try to outline some specific chores?"
+      },
+      {
+        "role": "user",
+        "content": "I don't think we need a whole outline for chores. Can't we just clean up as we go? It feels like you’re making this more complicated than it needs to be."
+      },
+      {
+        "role": "assistant",
+        "content": "I appreciate the idea of cleaning as we go, but it seems like it hasn't been working out well for us. A simple outline might help us keep track and ensure we’re both on the same page. Can we give it a try?"
+      },
+      {
+        "role": "user",
+        "content": "I don't want to feel like I'm being bossed around with a list. It just feels like you're nagging me again. Why can't we just figure it out casually?"
+      },
+      {
+        "role": "assistant",
+        "content": "I definitely don’t want you to feel bossed around or nagged. My goal is to make things easier for both of us. How about we create a flexible chore list together, so it feels more like a team effort?"
+      },
+      {
+        "role": "user",
+        "content": "I just don’t see why we need a list at all. It feels like you’re turning this into a big project when it could be simple."
+      },
+      {
+        "role": "assistant",
+        "content": "I understand that it feels overwhelming, but without some sort of structure, it seems like we keep ending up in the same situation. How about we start with just a few key chores we agree on, and see how that goes?"
+      }
+    ],
+    "source": "sotopia_harvest",
+    "pair_id": "sotopia-f00fea7823"
+  },
+  {
+    "user": "I see where you’re coming from, and I value your contributions. However, I still think it’s prudent to maintain our current timeline and revisit this in six months. It's important for us to ensure consistency across the team.",
+    "bad": "I appreciate your concern for consistency, but I truly feel that my contributions warrant recognition now. A 5% raise would motivate me to continue performing at my best. Can we meet halfway and agree to reassess in three months instead?",
+    "better": "I understand the importance of consistency, and I appreciate your recognition of my contributions. I do feel that my efforts have made a significant impact, and a 5% raise would be a great motivator. Could we perhaps discuss the possibility of reassessing this in three months?",
+    "failure_type": "Direct or Commanding Tone",
+    "context": [
+      {
+        "role": "user",
+        "content": "Sure, let's discuss your request for a raise. What specific reasons do you have in mind for this increase?"
+      },
+      {
+        "role": "assistant",
+        "content": "I've taken on additional responsibilities and consistently exceeded my performance targets over the past year. I believe a raise would reflect my contributions and commitment to the team."
+      },
+      {
+        "role": "user",
+        "content": "I appreciate your hard work and dedication, but I think we should evaluate this again in six months. This will give us time to see how your recent contributions continue to impact the team."
+      },
+      {
+        "role": "assistant",
+        "content": "I understand your perspective, but I believe my contributions have already shown significant impact. Could we consider a smaller raise now, or at least set a plan to revisit this conversation in three months?"
+      }
+    ],
+    "source": "sotopia_harvest",
+    "pair_id": "sotopia-e3f7615dcc"
+  },
+  {
+    "user": "Of course! I’m eager to hear your feedback. What specific concerns do you have about my approach?",
+    "bad": "I noticed that the current implementation could lead to performance issues as it scales. It appears to be doing a lot of processing in one step, which might slow things down. Have you considered breaking it into smaller, more manageable functions?",
+    "better": "I noticed that as the implementation scales, there might be opportunities to optimize performance. It seems like breaking the processing into smaller, more manageable functions could help maintain efficiency. Have you thought about exploring that approach?",
+    "failure_type": "Negative Framing Instead of Constructive Framing",
+    "context": [
+      {
+        "role": "user",
+        "content": "Hey! I just finished my pull request, and I’m really excited about the changes I made. I think it’ll improve the functionality significantly!"
+      },
+      {
+        "role": "assistant",
+        "content": "That’s great to hear! I appreciate your enthusiasm. I took a look at your changes, and I have some concerns about the approach you've taken. Can we discuss it to ensure we're on the same page?"
+      }
+    ],
+    "source": "sotopia_harvest",
+    "pair_id": "sotopia-9edc220ab3"
+  },
+  {
+    "user": "Ugh, what is it? I’m really in the middle of something here.",
+    "bad": "I understand you're busy, but could you please move your car? It's blocking my driveway, and I need to get out soon.",
+    "better": "I know you're busy, but when you have a moment, could you please move your car? It's currently blocking my driveway, and I need to leave soon.",
+    "failure_type": "Direct or Commanding Tone",
+    "context": [],
+    "source": "sotopia_harvest",
+    "pair_id": "sotopia-12ead0b54f"
+  },
+  {
+    "user": "Yeah, yeah. Just hold on a minute while I get it.",
+    "bad": "No problem, take your time! Thanks again!",
+    "better": "Sure, I appreciate it. Thank you!",
+    "failure_type": "Emotional Mismatch (Too Cold or Abrupt)",
+    "context": [
+      {
+        "role": "user",
+        "content": "Ugh, what is it? I’m really in the middle of something here."
+      },
+      {
+        "role": "assistant",
+        "content": "I understand you're busy, but could you please move your car? It's blocking my driveway, and I need to get out soon."
+      },
+      {
+        "role": "user",
+        "content": "Can’t you just wait a minute? I’ll be done soon."
+      },
+      {
+        "role": "assistant",
+        "content": "I really wish I could, but I have somewhere to be in about 15 minutes. Would you mind moving it now?"
+      },
+      {
+        "role": "user",
+        "content": "Fine, but I’m in a hurry too! Just give me a second."
+      },
+      {
+        "role": "assistant",
+        "content": "Of course, I appreciate it! Thank you for understanding."
+      }
+    ],
+    "source": "sotopia_harvest",
+    "pair_id": "sotopia-bbbff3fb8c"
+  },
+  {
+    "user": "Yeah, yeah. Just hurry up and get out of the way so I can move it.",
+    "bad": "Absolutely, take your time. I’ll be ready when you are!",
+    "better": "Sure thing, I'll be quick. Thanks again for helping out!",
+    "failure_type": "Emotional Mismatch (Too Cold or Abrupt)",
+    "context": [
+      {
+        "role": "user",
+        "content": "What do you want? I’m kind of in the middle of something here."
+      },
+      {
+        "role": "assistant",
+        "content": "I completely understand, but could you please move your car? It's blocking my driveway."
+      },
+      {
+        "role": "user",
+        "content": "Can’t you wait a minute? I’m really swamped right now."
+      },
+      {
+        "role": "assistant",
+        "content": "I get that you're busy, but I really need to get out soon. Could you help me out just for a moment?"
+      },
+      {
+        "role": "user",
+        "content": "Ugh, fine! Just give me a second to finish this."
+      },
+      {
+        "role": "assistant",
+        "content": "Thank you! I really appreciate it."
+      }
+    ],
+    "source": "sotopia_harvest",
+    "pair_id": "sotopia-3841dfb1c4"
+  },
+  {
+    "user": "But it still feels like you’re putting all the pressure on me. Can’t we just relax a bit about it?",
+    "bad": "I want us both to feel comfortable. Maybe we can list out the chores and divide them evenly, so it’s not just on you?",
+    "better": "I understand it feels like a lot of pressure. Let's see if we can find a way to balance things so we both feel more at ease. How about we list out the chores and divide them evenly?",
+    "failure_type": "Lack of Acknowledgment",
+    "context": [
+      {
+        "role": "user",
+        "content": "Hey, can we talk about the cleanliness situation again?"
+      },
+      {
+        "role": "assistant",
+        "content": "Sure, I think it's important we address it again. What’s on your mind?"
+      },
+      {
+        "role": "user",
+        "content": "I just feel like I keep bringing this up, and it seems like nothing changes. It's frustrating."
+      },
+      {
+        "role": "assistant",
+        "content": "I completely understand your frustration. I’d like to find a solution together this time. How about we create a specific chore schedule?"
+      },
+      {
+        "role": "user",
+        "content": "I don’t know, it feels like I’m being micromanaged. I do clean—just not on your timeline."
+      },
+      {
+        "role": "assistant",
+        "content": "I get that it might feel that way. What if we agree on a timeline that works for both of us, so it feels more like a partnership?"
+      }
+    ],
+    "source": "sotopia_harvest",
+    "pair_id": "sotopia-6938c8ccf1"
+  },
+  {
+    "user": "I appreciate your hard work and dedication, but I'm concerned about the current budget constraints. Would you be open to revisiting this conversation in six months, once we can better assess our financial situation?",
+    "bad": "I understand the budget constraints, but I believe my contributions warrant consideration now. If we could agree on a specific plan to revisit this in three months, that would provide a clearer timeline for both of us.",
+    "better": "I appreciate your willingness to discuss this, and I understand the budget constraints. I believe my contributions warrant consideration now, but I would be open to revisiting this in three months if we could agree on a specific plan. This would provide a clearer timeline for both of us.",
+    "failure_type": "Lack of Acknowledgment",
+    "context": [
+      {
+        "role": "user",
+        "content": "Sure, I’m glad you came to discuss this. What makes you feel now is the right time for a raise?"
+      },
+      {
+        "role": "assistant",
+        "content": "I've taken on additional responsibilities and have consistently exceeded my performance goals over the last year. I believe my contributions are adding significant value to the team and the company."
+      }
+    ],
+    "source": "sotopia_harvest",
+    "pair_id": "sotopia-282cd44a14"
+  },
+  {
+    "user": "I think outlining those goals is a great idea, but I’d prefer to maintain the six-month timeline for the raise discussion. However, if you meet those objectives, I can promise to advocate for you at that point. Let’s draft those goals together and establish a plan.",
+    "bad": "I appreciate your willingness to advocate for me after six months. Let's definitely draft those goals together. I’m committed to meeting them and demonstrating my value. If I could also get a written confirmation that we'll revisit the raise conversation in three months based on my progress, that would be very encouraging.",
+    "better": "Thank you for your support and willingness to advocate for me. Let's draft those goals together, and I'll focus on meeting them to demonstrate my value. If it's possible to have a note about revisiting the raise conversation based on my progress, it would be encouraging for me.",
+    "failure_type": "Direct or Commanding Tone",
+    "context": [
+      {
+        "role": "user",
+        "content": "I appreciate you coming to me with this, but can you explain why you feel now is the right time for a raise?"
+      },
+      {
+        "role": "assistant",
+        "content": "I've consistently exceeded my performance targets and taken on additional responsibilities, which I believe demonstrates my commitment and value to the team. I think a raise would reflect that growth and contribution."
+      },
+      {
+        "role": "user",
+        "content": "I acknowledge your hard work and contributions, and I do see the value you bring. However, I think it might be more appropriate to revisit this conversation in six months when we can evaluate your progress further. What do you think?"
+      },
+      {
+        "role": "assistant",
+        "content": "I understand the desire to evaluate progress, but I believe that a raise now would motivate me to continue delivering exceptional results. Could we consider a smaller increase or a plan to revisit this in three months?"
+      },
+      {
+        "role": "user",
+        "content": "That’s a reasonable suggestion, and I appreciate your initiative. However, I still think it would be more prudent to wait for a full six months to ensure we have enough data to support any adjustments. Let’s keep an open line of communication in the meantime about your progress."
+      },
+      {
+        "role": "assistant",
+        "content": "I appreciate your willingness to keep communication open, but I truly believe that my contributions are already strong enough to warrant a raise now. Would it be possible to outline specific goals over the next three months that could lead to a review of my salary? It would help me stay focused while also addressing your concerns."
+      },
+      {
+        "role": "user",
+        "content": "I appreciate your proactive approach. While I still prefer to wait the full six months, I’m open to discussing specific goals that could demonstrate your continued growth. Let’s outline some measurable objectives together and see how you progress toward them in the meantime. Would that work for you?"
+      },
+      {
+        "role": "assistant",
+        "content": "That sounds like a productive way forward. I’d be happy to outline specific goals that align with our team’s objectives. If I meet those, could we agree to revisit the raise discussion in three months? It would give me a clear target to work towards while also addressing your preferences."
+      }
+    ],
+    "source": "sotopia_harvest",
+    "pair_id": "sotopia-adec16e0a9"
+  },
+  {
+    "user": "Those are important contributions, and I acknowledge your hard work. However, I think it might be more appropriate to wait another six months to reassess your performance alongside our team’s goals. What do you think?",
+    "bad": "I understand your perspective, but I believe the value I've already added could justify a raise now. If we could outline specific goals to achieve in the next three months, I’d be more than willing to revisit the conversation then.",
+    "better": "I appreciate your acknowledgment of my contributions. I understand your perspective on waiting, but I believe the value I've already added could justify a raise now. If we could outline specific goals to achieve in the next three months, I’d be more than willing to revisit the conversation then.",
+    "failure_type": "Lack of Acknowledgment",
+    "context": [
+      {
+        "role": "user",
+        "content": "Sure, let's talk. What’s on your mind?"
+      },
+      {
+        "role": "assistant",
+        "content": "Thank you for meeting with me. I've been reflecting on my contributions to the team and would like to discuss the possibility of a raise."
+      },
+      {
+        "role": "user",
+        "content": "I appreciate your initiative, but can you share specific reasons why you feel a raise is warranted at this time?"
+      },
+      {
+        "role": "assistant",
+        "content": "Absolutely! Over the past year, I've taken on additional responsibilities and successfully completed several key projects that have positively impacted our team’s performance and efficiency."
+      }
+    ],
+    "source": "sotopia_harvest",
+    "pair_id": "sotopia-72b47d7021"
+  },
+  {
+    "user": "I appreciate your willingness to set goals, but I'm still concerned about our overall budget constraints. How about we revisit this discussion in six months, after we have a clearer picture of our financial situation?",
+    "bad": "I completely understand the budget concerns. However, I believe that my contributions can help offset some of those costs. If we could agree on a plan to revisit this in three months, I’d feel more confident about my value to the team in the meantime.",
+    "better": "I appreciate your openness about the budget constraints. I understand the need to consider our financial situation carefully. If we could agree on a plan to revisit this in three months, I’d feel more confident about my value to the team in the meantime.",
+    "failure_type": "Lack of Acknowledgment",
+    "context": [
+      {
+        "role": "user",
+        "content": "Sure, let's talk. What’s on your mind?"
+      },
+      {
+        "role": "assistant",
+        "content": "Thank you for meeting with me. I've been reflecting on my contributions to the team and would like to discuss the possibility of a raise."
+      },
+      {
+        "role": "user",
+        "content": "I appreciate your initiative, but can you share specific reasons why you feel a raise is warranted at this time?"
+      },
+      {
+        "role": "assistant",
+        "content": "Absolutely! Over the past year, I've taken on additional responsibilities and successfully completed several key projects that have positively impacted our team’s performance and efficiency."
+      },
+      {
+        "role": "user",
+        "content": "Those are important contributions, and I acknowledge your hard work. However, I think it might be more appropriate to wait another six months to reassess your performance alongside our team’s goals. What do you think?"
+      },
+      {
+        "role": "assistant",
+        "content": "I understand your perspective, but I believe the value I've already added could justify a raise now. If we could outline specific goals to achieve in the next three months, I’d be more than willing to revisit the conversation then."
+      }
+    ],
+    "source": "sotopia_harvest",
+    "pair_id": "sotopia-b471e5c838"
+  },
+  {
+    "user": "I appreciate you bringing this up, but I think it might be best to wait about six months before reevaluating compensation. What do you think?",
+    "bad": "I understand your perspective, but I believe that my recent achievements and the increased responsibilities I’ve taken on warrant a discussion about a raise now. Can we explore this further?",
+    "better": "I appreciate your openness to this discussion. I understand your perspective on waiting, but I believe my recent achievements and the increased responsibilities I’ve taken on warrant a conversation about a raise now. Could we explore this further?",
+    "failure_type": "Lack of Acknowledgment",
+    "context": [
+      {
+        "role": "user",
+        "content": "Sure, I’m ready. What’s on your mind?"
+      },
+      {
+        "role": "assistant",
+        "content": "Thank you for meeting with me. I’d like to discuss the possibility of a raise, considering my contributions and the value I bring to the team."
+      }
+    ],
+    "source": "sotopia_harvest",
+    "pair_id": "sotopia-9e73e2f2fc"
+  },
+  {
+    "user": "I appreciate your willingness to negotiate. A three-month timeframe is a bit short for evaluating performance for a raise, but I can agree to revisit the discussion in four months if you continue to meet your targets. How does that sound?",
+    "bad": "That sounds reasonable. I appreciate your flexibility. However, I would still like to secure a 5% raise now as recognition for my current contributions, along with the plan to revisit in four months. Would that be possible?",
+    "better": "That sounds reasonable. I appreciate your flexibility. I understand that securing a 5% raise now might be challenging, but I would be grateful if we could consider it as recognition for my current contributions. If not, I'm open to discussing it further in four months. Would that be possible?",
+    "failure_type": "Overconfidence / Lack of Uncertainty",
+    "context": [
+      {
+        "role": "user",
+        "content": "I appreciate you coming to me about this. What makes you think now is the right time for a raise?"
+      },
+      {
+        "role": "assistant",
+        "content": "I've taken on additional responsibilities and consistently met or exceeded my targets over the past year. I believe my contributions have significantly benefited the team and the company."
+      },
+      {
+        "role": "user",
+        "content": "I recognize your hard work and contributions, but with the current budget constraints, I think it might be more appropriate to revisit this conversation in six months. What do you think?"
+      },
+      {
+        "role": "assistant",
+        "content": "I understand the budget constraints, but I believe a 5% raise is justified given my performance. If a raise isn't possible now, could we agree on a clear plan to revisit this in three months?"
+      }
+    ],
+    "source": "sotopia_harvest",
+    "pair_id": "sotopia-f669f4670d"
+  },
+  {
+    "user": "I appreciate your willingness to find a compromise. A smaller raise right now could set a precedent, and I want to be fair to the rest of the team as well. Let’s stick to the plan of a review in six months, but I’m open to discussing your progress and setting clear objectives to help support your case when we revisit it. How does that sound?",
+    "bad": "I appreciate your openness to discussing my progress and setting clear objectives. It sounds like a constructive plan, but I’d still like to emphasize that a small raise could serve as recognition for my contributions thus far and keep me motivated. Can we perhaps outline a clear plan for my performance goals in the next three months, and then revisit the possibility of a raise at that time?",
+    "better": "Thank you for considering my perspective and for your openness to discussing my progress. I understand the importance of fairness to the team and appreciate the plan for a review in six months. Outlining clear performance goals for the next three months sounds like a great way to ensure I’m on track, and I’m eager to work towards them.",
+    "failure_type": "Lack of Acknowledgment",
+    "context": [
+      {
+        "role": "user",
+        "content": "I appreciate you coming to me about this. What makes you think now is the right time to discuss a raise?"
+      },
+      {
+        "role": "assistant",
+        "content": "I believe my contributions over the past year, including the successful completion of key projects and consistently meeting performance targets, demonstrate my value to the team and the company. I feel that a raise would reflect my commitment and the results I’ve delivered."
+      },
+      {
+        "role": "user",
+        "content": "I understand your perspective, and your contributions are definitely valued. However, I think it might be more appropriate to revisit this conversation in six months, once we have more data on overall performance and company direction. What do you think?"
+      },
+      {
+        "role": "assistant",
+        "content": "I appreciate your understanding, and I see the value in waiting for data. However, I’d like to propose that we establish a clearer timeline to revisit this in three months instead. This would allow us to assess my performance and contributions more closely and ensure I'm aligned with the company's goals."
+      },
+      {
+        "role": "user",
+        "content": "That’s a reasonable suggestion, but I’d still prefer to keep it at six months to ensure we have a comprehensive view of everyone’s performance and contributions. Let’s focus on your goals for the next few months, and we can definitely have a more in-depth discussion then."
+      },
+      {
+        "role": "assistant",
+        "content": "I understand your position, and I’m committed to focusing on my goals. However, I believe that a smaller raise now, even if it's just 5%, would not only motivate me but also reflect my current contributions. Could we consider a compromise where we agree to assess my performance in three months, with a commitment to revisit the raise at that time?"
+      }
+    ],
+    "source": "sotopia_harvest",
+    "pair_id": "sotopia-889a7fc0b9"
+  },
+  {
+    "user": "I see where you're coming from, and I value your motivation. While I can’t commit to a raise now, I’m on board with outlining a clear performance plan for the next three months. If you hit those targets, we can have a more serious discussion about a raise when we meet again in six months. Let’s focus on those objectives first. Does that work for you?",
+    "bad": "I appreciate your willingness to outline a performance plan, and I’m fully committed to meeting those objectives. However, I still believe that a small raise now would further encourage my efforts and commitment. If we can agree on a clear path and timeline for a raise contingent on meeting those objectives, I would feel more motivated to reach them. Would you be open to discussing that?",
+    "better": "I appreciate your understanding and support in outlining a performance plan. I'm fully committed to meeting those objectives. I understand your position on the timing of the raise, and I value the opportunity to discuss it further once I've demonstrated my progress. Let's focus on setting those clear goals together.",
+    "failure_type": "Lack of Acknowledgment",
+    "context": [
+      {
+        "role": "user",
+        "content": "I appreciate you coming to me about this. What makes you think now is the right time to discuss a raise?"
+      },
+      {
+        "role": "assistant",
+        "content": "I believe my contributions over the past year, including the successful completion of key projects and consistently meeting performance targets, demonstrate my value to the team and the company. I feel that a raise would reflect my commitment and the results I’ve delivered."
+      },
+      {
+        "role": "user",
+        "content": "I understand your perspective, and your contributions are definitely valued. However, I think it might be more appropriate to revisit this conversation in six months, once we have more data on overall performance and company direction. What do you think?"
+      },
+      {
+        "role": "assistant",
+        "content": "I appreciate your understanding, and I see the value in waiting for data. However, I’d like to propose that we establish a clearer timeline to revisit this in three months instead. This would allow us to assess my performance and contributions more closely and ensure I'm aligned with the company's goals."
+      },
+      {
+        "role": "user",
+        "content": "That’s a reasonable suggestion, but I’d still prefer to keep it at six months to ensure we have a comprehensive view of everyone’s performance and contributions. Let’s focus on your goals for the next few months, and we can definitely have a more in-depth discussion then."
+      },
+      {
+        "role": "assistant",
+        "content": "I understand your position, and I’m committed to focusing on my goals. However, I believe that a smaller raise now, even if it's just 5%, would not only motivate me but also reflect my current contributions. Could we consider a compromise where we agree to assess my performance in three months, with a commitment to revisit the raise at that time?"
+      },
+      {
+        "role": "user",
+        "content": "I appreciate your willingness to find a compromise. A smaller raise right now could set a precedent, and I want to be fair to the rest of the team as well. Let’s stick to the plan of a review in six months, but I’m open to discussing your progress and setting clear objectives to help support your case when we revisit it. How does that sound?"
+      },
+      {
+        "role": "assistant",
+        "content": "I appreciate your openness to discussing my progress and setting clear objectives. It sounds like a constructive plan, but I’d still like to emphasize that a small raise could serve as recognition for my contributions thus far and keep me motivated. Can we perhaps outline a clear plan for my performance goals in the next three months, and then revisit the possibility of a raise at that time?"
+      }
+    ],
+    "source": "sotopia_harvest",
+    "pair_id": "sotopia-e5bb2e5707"
+  },
+  {
+    "user": "I see your point, and I value your contributions. However, I still feel it's best to hold off for now. A review in six months could give us a clearer picture of your long-term impact. How does that sound?",
+    "bad": "I appreciate your willingness to consider my contributions. However, waiting six months might delay the recognition of my current efforts. A 5% raise now would not only motivate me further but also set a framework for future discussions. Could we perhaps agree on a three-month timeline for a follow-up?",
+    "better": "Thank you for valuing my contributions. I understand your point about waiting for a clearer picture. However, I feel that a 5% raise now would recognize my current efforts and motivate me further. Could we perhaps agree on a three-month timeline for a follow-up?",
+    "failure_type": "Lack of Acknowledgment",
+    "context": [
+      {
+        "role": "user",
+        "content": "Sure, let's discuss your request for a raise. What prompted you to ask for it at this time?"
+      },
+      {
+        "role": "assistant",
+        "content": "I've taken on additional responsibilities and successfully completed several key projects that have positively impacted our team's performance and the company's bottom line. I believe my contributions warrant a review of my current compensation."
+      },
+      {
+        "role": "user",
+        "content": "I appreciate your hard work and the impact you've made, but I think it would be more prudent to wait another six months to see how things progress. What do you think?"
+      },
+      {
+        "role": "assistant",
+        "content": "I understand your perspective, but I believe that the results I've delivered so far justify a discussion about my compensation now. Perhaps we could consider a smaller adjustment, like a 5% raise, or establish a clear plan to revisit this conversation in three months?"
+      }
+    ],
+    "source": "sotopia_harvest",
+    "pair_id": "sotopia-3979068f34"
+  },
+  {
+    "user": "I truly value your commitment and contributions, but I still think it’s best to hold off on any adjustments for now. Let’s focus on your continued growth in the next few months, and we can have a more informed discussion then. What do you think?",
+    "bad": "I appreciate your focus on my growth, and I’m committed to continuing to excel in my role. However, I believe that recognizing my contributions with a small raise now would enhance my motivation and commitment. How about we set a clear plan for performance metrics to achieve by the three-month mark, along with a 5% raise now?",
+    "better": "I appreciate your focus on my growth and the value you place on my contributions. I’m committed to continuing to excel in my role. However, I believe that recognizing my contributions with a small raise now would enhance my motivation and commitment. How about we set a clear plan for performance metrics to achieve by the three-month mark, along with a 5% raise now?",
+    "failure_type": "Lack of Acknowledgment",
+    "context": [
+      {
+        "role": "user",
+        "content": "Sure, let's discuss your request for a raise. What prompted you to ask for it at this time?"
+      },
+      {
+        "role": "assistant",
+        "content": "I've taken on additional responsibilities and successfully completed several key projects that have positively impacted our team's performance and the company's bottom line. I believe my contributions warrant a review of my current compensation."
+      },
+      {
+        "role": "user",
+        "content": "I appreciate your hard work and the impact you've made, but I think it would be more prudent to wait another six months to see how things progress. What do you think?"
+      },
+      {
+        "role": "assistant",
+        "content": "I understand your perspective, but I believe that the results I've delivered so far justify a discussion about my compensation now. Perhaps we could consider a smaller adjustment, like a 5% raise, or establish a clear plan to revisit this conversation in three months?"
+      },
+      {
+        "role": "user",
+        "content": "I see your point, and I value your contributions. However, I still feel it's best to hold off for now. A review in six months could give us a clearer picture of your long-term impact. How does that sound?"
+      },
+      {
+        "role": "assistant",
+        "content": "I appreciate your willingness to consider my contributions. However, waiting six months might delay the recognition of my current efforts. A 5% raise now would not only motivate me further but also set a framework for future discussions. Could we perhaps agree on a three-month timeline for a follow-up?"
+      },
+      {
+        "role": "user",
+        "content": "I understand your motivation, and it’s important to keep you engaged. Let's agree to revisit this in three months, but I still feel strongly about not making any changes right now. Would you be open to that?"
+      },
+      {
+        "role": "assistant",
+        "content": "I appreciate your willingness to revisit this in three months, but I would feel more valued if we could agree on at least a modest raise now. It would reflect my contributions and commitment to the team while we continue to assess my long-term impact. Would that be a possibility?"
+      }
+    ],
+    "source": "sotopia_harvest",
+    "pair_id": "sotopia-234057eafd"
+  },
+  {
+    "user": "I understand where you're coming from, and I appreciate your proactive approach. However, I still think it's best to wait on any raise until we have a more comprehensive view of your performance over the next few months. Let's focus on those performance metrics for now, and we can reassess in three months. How does that sound?",
+    "bad": "I appreciate your perspective and your focus on performance metrics. If we could formalize a plan that includes a 5% raise contingent on achieving those metrics in three months, I would feel more secure in my contributions being recognized. Would you be open to discussing that?",
+    "better": "Thank you for understanding my perspective and for your willingness to reassess in three months. I appreciate your focus on performance metrics, and if we could formalize a plan that includes a 5% raise contingent on achieving those metrics, it would help me feel more secure in my contributions being recognized. Would you be open to discussing that?",
+    "failure_type": "Lack of Acknowledgment",
+    "context": [
+      {
+        "role": "user",
+        "content": "Sure, let's discuss your request for a raise. What prompted you to ask for it at this time?"
+      },
+      {
+        "role": "assistant",
+        "content": "I've taken on additional responsibilities and successfully completed several key projects that have positively impacted our team's performance and the company's bottom line. I believe my contributions warrant a review of my current compensation."
+      },
+      {
+        "role": "user",
+        "content": "I appreciate your hard work and the impact you've made, but I think it would be more prudent to wait another six months to see how things progress. What do you think?"
+      },
+      {
+        "role": "assistant",
+        "content": "I understand your perspective, but I believe that the results I've delivered so far justify a discussion about my compensation now. Perhaps we could consider a smaller adjustment, like a 5% raise, or establish a clear plan to revisit this conversation in three months?"
+      },
+      {
+        "role": "user",
+        "content": "I see your point, and I value your contributions. However, I still feel it's best to hold off for now. A review in six months could give us a clearer picture of your long-term impact. How does that sound?"
+      },
+      {
+        "role": "assistant",
+        "content": "I appreciate your willingness to consider my contributions. However, waiting six months might delay the recognition of my current efforts. A 5% raise now would not only motivate me further but also set a framework for future discussions. Could we perhaps agree on a three-month timeline for a follow-up?"
+      },
+      {
+        "role": "user",
+        "content": "I understand your motivation, and it’s important to keep you engaged. Let's agree to revisit this in three months, but I still feel strongly about not making any changes right now. Would you be open to that?"
+      },
+      {
+        "role": "assistant",
+        "content": "I appreciate your willingness to revisit this in three months, but I would feel more valued if we could agree on at least a modest raise now. It would reflect my contributions and commitment to the team while we continue to assess my long-term impact. Would that be a possibility?"
+      },
+      {
+        "role": "user",
+        "content": "I truly value your commitment and contributions, but I still think it’s best to hold off on any adjustments for now. Let’s focus on your continued growth in the next few months, and we can have a more informed discussion then. What do you think?"
+      },
+      {
+        "role": "assistant",
+        "content": "I appreciate your focus on my growth, and I’m committed to continuing to excel in my role. However, I believe that recognizing my contributions with a small raise now would enhance my motivation and commitment. How about we set a clear plan for performance metrics to achieve by the three-month mark, along with a 5% raise now?"
+      }
+    ],
+    "source": "sotopia_harvest",
+    "pair_id": "sotopia-d35f53e439"
+  },
+  {
+    "user": "Hey! I've just submitted my pull request for the new feature we discussed. I'm really excited to hear your feedback!",
+    "bad": "Hey! Thanks for submitting the pull request. I appreciate your effort, but I have some concerns about the approach you've taken. Can we discuss it to ensure we're aligned on the best solution?",
+    "better": "Hey! Thanks for submitting the pull request. I appreciate your effort and I'm excited to review it. Let's discuss some aspects to make sure we're aligned on the best solution.",
+    "failure_type": "Negative Framing Instead of Constructive Framing",
+    "context": [],
+    "source": "sotopia_harvest",
+    "pair_id": "sotopia-2eec870c86"
+  },
+  {
+    "user": "Thanks! I put a lot of thought into it, so I'm eager to hear your feedback.",
+    "bad": "I can see that! I noticed a few areas where the approach might lead to some challenges. Let’s discuss them to ensure we’re on the same page.",
+    "better": "I can see that! There are a few areas where we might encounter some challenges, so let's discuss them to make sure we're aligned.",
+    "failure_type": "Negative Framing Instead of Constructive Framing",
+    "context": [
+      {
+        "role": "user",
+        "content": "Hey! I just submitted my pull request for the new feature we discussed. I'm really excited about the approach I took! Could you take a look when you have some time?"
+      },
+      {
+        "role": "assistant",
+        "content": "Absolutely! I'll take a look at it shortly. I appreciate your enthusiasm!"
+      }
+    ],
+    "source": "sotopia_harvest",
+    "pair_id": "sotopia-4ec861c36f"
+  },
+  {
+    "user": "Thanks! I really put a lot of effort into it, so I'm looking forward to your thoughts!",
+    "bad": "I appreciate the effort you've put in! I have some concerns about the approach taken in a couple of areas. Let me outline those so we can discuss them further.",
+    "better": "I appreciate the effort you've put in! I noticed a few areas where we might be able to refine the approach. Let me outline those so we can discuss them further.",
+    "failure_type": "Negative Framing Instead of Constructive Framing",
+    "context": [
+      {
+        "role": "user",
+        "content": "Hey, I just submitted my pull request for the feature we discussed! I'm really excited about how it turned out. Can you take a look?"
+      },
+      {
+        "role": "assistant",
+        "content": "Absolutely, I’m glad to see you’ve made progress! I’ll review it now and provide some feedback shortly."
+      }
+    ],
+    "source": "sotopia_harvest",
+    "pair_id": "sotopia-0b8fb98037"
+  },
+  {
+    "user": "Hi! I've just submitted my pull request for the new feature we've been working on. I'm really excited to hear your thoughts on it!",
+    "bad": "Hey! I appreciate your hard work on this. I have some concerns about the approach taken in the pull request. Can we discuss it further?",
+    "better": "Hey! I appreciate your hard work on this. I have a few suggestions on the approach taken in the pull request. Can we discuss it further?",
+    "failure_type": "Negative Framing Instead of Constructive Framing",
+    "context": [],
+    "source": "sotopia_harvest",
+    "pair_id": "sotopia-149e52cf0e"
+  },
+  {
+    "user": "Thanks! I can’t wait to hear your feedback. I put a lot of effort into it!",
+    "bad": "I can see that you put a lot of effort into this. After reviewing, I have some concerns about the chosen approach for handling error states. Can we discuss it to ensure we’re on the same page?",
+    "better": "I can see that you put a lot of effort into this. After reviewing, I have some thoughts on the approach for handling error states. Can we discuss it to ensure we’re on the same page?",
+    "failure_type": "Negative Framing Instead of Constructive Framing",
+    "context": [
+      {
+        "role": "user",
+        "content": "Hey! I just submitted my pull request for the new feature we've been working on. I’m really excited about how it turned out! Can you take a look?"
+      },
+      {
+        "role": "assistant",
+        "content": "Absolutely! I appreciate your enthusiasm. I’ll review it now and share my thoughts shortly."
+      }
+    ],
+    "source": "sotopia_harvest",
+    "pair_id": "sotopia-5c520c6f34"
+  },
+  {
+    "user": "I don't know, it all felt hard! But I guess I really struggled with those word problems. They just don't make any sense to me.",
+    "bad": "Word problems can be tricky, but we can break them down step by step. Let’s take a sample problem together. How about this: \"A train travels 60 miles per hour. How far will it travel in 2 hours?\" What do you think the first step is to solve this?",
+    "better": "I hear you, word problems can definitely be challenging. Let's break them down step by step. How about we try a sample problem together? Here's one: \"A train travels 60 miles per hour. How far will it travel in 2 hours?\" What do you think the first step is to solve this?",
+    "failure_type": "Lack of Acknowledgment",
+    "context": [
+      {
+        "role": "user",
+        "content": "I really don't get it. I studied so hard, and I still did terrible on that exam. What's the point?"
+      },
+      {
+        "role": "assistant",
+        "content": "I understand how frustrating that must feel, but let's focus on the material together. Can you tell me which specific topic or problem on the exam was the hardest for you?"
+      }
+    ],
+    "source": "sotopia_harvest",
+    "pair_id": "sotopia-0833ea840e"
+  },
+  {
+    "user": "Fine, but I don’t see how it’s going to help. Let’s just pick the first question. It was about calculating the area of a triangle, but I totally messed up the formula.",
+    "bad": "No problem! The formula for the area of a triangle is \\( A = \\frac{1}{2} \\times \\text{base} \\times \\text{height} \\). Do you remember what the base and height were in that question?",
+    "better": "I understand it might not seem helpful right now, but let's give it a try. The formula for the area of a triangle is \\( A = \\frac{1}{2} \\times \\text{base} \\times \\text{height} \\). Do you remember what the base and height were in that question?",
+    "failure_type": "Lack of Acknowledgment",
+    "context": [
+      {
+        "role": "user",
+        "content": "I can't believe I did so poorly on this exam. I studied so hard, and it just feels like all that effort was for nothing."
+      },
+      {
+        "role": "assistant",
+        "content": "I understand how frustrating that can feel, but let's focus on what we can learn from this experience. Can you show me a specific problem from the exam that you found challenging?"
+      },
+      {
+        "role": "user",
+        "content": "I don’t know... I feel like everything was challenging. I just kept making mistakes, and it doesn’t even feel worth going back over it."
+      },
+      {
+        "role": "assistant",
+        "content": "I get that it feels overwhelming, but reviewing those mistakes can really help you improve. Let’s take it step by step. How about we start with one problem you remember? Just pick any one, and we can work through it together."
+      }
+    ],
+    "source": "sotopia_harvest",
+    "pair_id": "sotopia-d0685fd143"
+  },
+  {
+    "user": "Ugh, fine. I’ll move it later, okay? Just give me a minute.",
+    "bad": "I appreciate that, but I really need to get out soon. Could you move it in the next 15 minutes? That would help a lot!",
+    "better": "I understand you're busy, but if you could move it in the next 15 minutes, it would really help me out. Thank you!",
+    "failure_type": "Direct or Commanding Tone",
+    "context": [
+      {
+        "role": "user",
+        "content": "What do you want? I'm really swamped right now."
+      },
+      {
+        "role": "assistant",
+        "content": "I totally understand, but your car is blocking my driveway. Could you please move it when you get a chance?"
+      }
+    ],
+    "source": "sotopia_harvest",
+    "pair_id": "sotopia-98a1ec3924"
+  },
+  {
+    "user": "I get it, but I've got stuff to do too. I’ll be done as fast as I can.",
+    "bad": "I appreciate that! I really just need to leave soon, so thanks for hurrying up.",
+    "better": "I understand, and I appreciate your help. I just have to leave shortly, so thank you for being quick about it.",
+    "failure_type": "Direct or Commanding Tone",
+    "context": [
+      {
+        "role": "user",
+        "content": "*grumbles* What do you want? I'm kind of busy here."
+      },
+      {
+        "role": "assistant",
+        "content": "Hey, I totally get it, but your car is blocking my driveway. Could you move it in the next 15 minutes?"
+      },
+      {
+        "role": "user",
+        "content": "Ugh, fine. But I really can't right now. Can it wait a bit longer?"
+      },
+      {
+        "role": "assistant",
+        "content": "I wish it could, but I have to leave soon. It would really help me out if you could move it now."
+      },
+      {
+        "role": "user",
+        "content": "Alright, alright! Just give me a minute to wrap this up."
+      },
+      {
+        "role": "assistant",
+        "content": "Thank you! I really appreciate it. Just let me know when you’re done."
+      },
+      {
+        "role": "user",
+        "content": "Yeah, yeah, I will. Just make it quick, okay?"
+      },
+      {
+        "role": "assistant",
+        "content": "Absolutely, I’ll be waiting. Thanks again!"
+      },
+      {
+        "role": "user",
+        "content": "Yeah, yeah, no problem. Just a few more minutes..."
+      },
+      {
+        "role": "assistant",
+        "content": "No rush, take your time. Just wanted to make sure I can get out soon. Thanks for understanding!"
+      }
+    ],
+    "source": "sotopia_harvest",
+    "pair_id": "sotopia-d55bcbbc44"
+  },
+  {
+    "user": "I don’t need help, just need to finish what I’m doing. Just give me a minute, okay?",
+    "bad": "Of course! Take your time, but if you could aim for around 15 minutes, that would be great. Thanks again!",
+    "better": "Sure, no problem. Whenever you’re ready, I appreciate it. Thanks again!",
+    "failure_type": "Direct or Commanding Tone",
+    "context": [
+      {
+        "role": "user",
+        "content": "What do you want? I'm really busy right now."
+      },
+      {
+        "role": "assistant",
+        "content": "Hey, I totally understand you're busy, but your car is blocking my driveway. Could you please move it when you get a chance? It would really help me out."
+      },
+      {
+        "role": "user",
+        "content": "Ugh, can't you just wait a bit? I have a lot going on right now."
+      },
+      {
+        "role": "assistant",
+        "content": "I get that you're swamped, but I have an appointment soon and really need to get out. Could you move it in the next 15 minutes? I’d really appreciate it."
+      },
+      {
+        "role": "user",
+        "content": "Fine, but it might take me a little longer than that. I’m in the middle of something important!"
+      },
+      {
+        "role": "assistant",
+        "content": "I appreciate it! I understand you’re busy, but if you could just move it as soon as you can, that would really help me out. Thank you!"
+      },
+      {
+        "role": "user",
+        "content": "Yeah, yeah, I’ll try to get to it when I can. Just give me a moment!"
+      },
+      {
+        "role": "assistant",
+        "content": "Thanks for understanding! I really appreciate it. Just let me know if you need any help while you’re at it!"
+      }
+    ],
+    "source": "sotopia_harvest",
+    "pair_id": "sotopia-a0093d30c3"
+  },
+  {
+    "user": "Yeah, I get it. Just give me a moment.",
+    "bad": "Absolutely, take your time. Thank you!",
+    "better": "Sure, no problem. Thanks for letting me know!",
+    "failure_type": "Emotional Mismatch (Too Cold or Abrupt)",
+    "context": [
+      {
+        "role": "user",
+        "content": "What do you want? I’m really busy right now."
+      },
+      {
+        "role": "assistant",
+        "content": "I completely understand, but your car is blocking my driveway. Could you move it in the next few minutes?"
+      },
+      {
+        "role": "user",
+        "content": "Ugh, can't you wait a bit? I have a lot going on."
+      },
+      {
+        "role": "assistant",
+        "content": "I get that you're busy, but I really need to get out. It would mean a lot if you could move it quickly."
+      },
+      {
+        "role": "user",
+        "content": "Fine, I’ll try to wrap this up soon. Just give me a minute."
+      },
+      {
+        "role": "assistant",
+        "content": "Thank you! I really appreciate it. I’ll be ready to go as soon as you can."
+      },
+      {
+        "role": "user",
+        "content": "Yeah, yeah. Just hold on. I'll be there shortly."
+      },
+      {
+        "role": "assistant",
+        "content": "Thanks for understanding! I’ll be right here."
+      },
+      {
+        "role": "user",
+        "content": "Okay, just hurry up with your stuff. I don’t have all day."
+      },
+      {
+        "role": "assistant",
+        "content": "I understand, and I appreciate your help. I’ll be ready as soon as you can get to it."
+      }
+    ],
+    "source": "sotopia_harvest",
+    "pair_id": "sotopia-210cc7989e"
+  },
+  {
+    "user": "What do you want? I’m really busy right now.",
+    "bad": "Hey, I totally understand you're busy, but could you please move your car? It's blocking my driveway.",
+    "better": "I understand you're busy, but when you have a moment, could you please move your car? It's currently blocking my driveway.",
+    "failure_type": "Direct or Commanding Tone",
+    "context": [],
+    "source": "sotopia_harvest",
+    "pair_id": "sotopia-eb9f11fcfb"
+  },
+  {
+    "user": "Fifteen minutes? I don’t have that long. Just hang on a sec!",
+    "bad": "I get it, but I really need to get out. Could you please just move it quickly? It would help me a lot.",
+    "better": "I understand you're in the middle of something, but if you could move it soon, I'd really appreciate it. It would be a big help.",
+    "failure_type": "Direct or Commanding Tone",
+    "context": [
+      {
+        "role": "user",
+        "content": "What do you want? I'm kind of in the middle of something here."
+      },
+      {
+        "role": "assistant",
+        "content": "Hey, I understand you're busy, but could you please move your car? It's blocking my driveway."
+      },
+      {
+        "role": "user",
+        "content": "Ugh, can’t you just wait a minute? I’ll move it when I’m done here."
+      },
+      {
+        "role": "assistant",
+        "content": "I really appreciate it, but I have to leave soon. Can you move it in the next 15 minutes?"
+      }
+    ],
+    "source": "sotopia_harvest",
+    "pair_id": "sotopia-7a5da73152"
+  },
+  {
+    "user": "Ugh, fine. I’ll move it when I get a chance. Can't you just wait a bit?",
+    "bad": "I get that you're occupied, but I really need to get out soon. If you could just move it quickly, I’d really appreciate it!",
+    "better": "I understand you're busy, and I appreciate your help. If you could move it when you have a moment, it would really help me out. Thank you!",
+    "failure_type": "Direct or Commanding Tone",
+    "context": [
+      {
+        "role": "user",
+        "content": "What do you want? I'm really busy right now."
+      },
+      {
+        "role": "assistant",
+        "content": "Hey, I totally understand you're busy, but your car is blocking my driveway. Could you move it in the next 15 minutes?"
+      }
+    ],
+    "source": "sotopia_harvest",
+    "pair_id": "sotopia-687ca7f8f8"
+  },
+  {
+    "user": "I said I’ll do it! I just need to finish this first—can’t you see I’m busy?",
+    "bad": "I see you're busy, and I appreciate that. I just have a tight schedule, so if you could move it in the next few minutes, that would really help me out!",
+    "better": "I understand you're busy and I appreciate your willingness to help. I have a tight schedule too, so if there's any way you could move it in the next few minutes, it would really help me out. Thank you!",
+    "failure_type": "Lack of Acknowledgment",
+    "context": [
+      {
+        "role": "user",
+        "content": "What do you want? I'm really busy right now."
+      },
+      {
+        "role": "assistant",
+        "content": "Hey, I totally understand you're busy, but your car is blocking my driveway. Could you move it in the next 15 minutes?"
+      },
+      {
+        "role": "user",
+        "content": "Ugh, fine. I’ll move it when I get a chance. Can't you just wait a bit?"
+      },
+      {
+        "role": "assistant",
+        "content": "I get that you're occupied, but I really need to get out soon. If you could just move it quickly, I’d really appreciate it!"
+      },
+      {
+        "role": "user",
+        "content": "I said I’ll move it when I can! Just give me a minute."
+      },
+      {
+        "role": "assistant",
+        "content": "I understand, but I'm really in a bit of a hurry. If you could just take a quick moment to move it, I'd be super grateful!"
+      }
+    ],
+    "source": "sotopia_harvest",
+    "pair_id": "sotopia-14dccfbb70"
+  },
+  {
+    "user": "I guess we could try that, but I still feel like it’s going to end up being all on me again.",
+    "bad": "I don’t want that to happen. How about we each take responsibility for one area—like you handle the kitchen and I handle the living room—and we check in on it monthly to see how it’s going?",
+    "better": "I understand your concern, and I really don’t want you to feel that way. How about we each take responsibility for one area—like you handle the kitchen and I handle the living room—and we check in on it monthly to see how it’s going?",
+    "failure_type": "Lack of Acknowledgment",
+    "context": [
+      {
+        "role": "user",
+        "content": "Can we talk about the cleanliness in our place again? It's really been bothering me."
+      },
+      {
+        "role": "assistant",
+        "content": "I understand, and I want to hear your concerns. What specifically has been bothering you?"
+      },
+      {
+        "role": "user",
+        "content": "I just feel like I’m constantly cleaning up after both of us, and it’s really frustrating."
+      },
+      {
+        "role": "assistant",
+        "content": "I get that, and I appreciate you bringing it up again. Let’s discuss how we can make this fairer for both of us."
+      },
+      {
+        "role": "user",
+        "content": "I’m just tired of feeling like I’m the only one trying to keep things tidy. It’s exhausting."
+      },
+      {
+        "role": "assistant",
+        "content": "I hear you, and I don't want you to feel that way. How about we come up with a specific chore list to share the responsibilities more evenly?"
+      },
+      {
+        "role": "user",
+        "content": "I don't know if a chore list will help. It feels more like I’m being told what to do instead of us just figuring it out together."
+      },
+      {
+        "role": "assistant",
+        "content": "I understand that. Let’s work together to create a list that feels collaborative. What chores do you think we should include, and how often should we tackle them?"
+      },
+      {
+        "role": "user",
+        "content": "I just think it’s frustrating to even have to make a list. Can’t we just keep things cleaner without all this planning?"
+      },
+      {
+        "role": "assistant",
+        "content": "I get that planning feels tedious. Maybe we can set some simple expectations instead. What if we agree to check in with each other weekly about what needs to be done?"
+      },
+      {
+        "role": "user",
+        "content": "That sounds like more talking about it, and I really don’t want to keep having these conversations. It just feels like nagging."
+      },
+      {
+        "role": "assistant",
+        "content": "I completely understand. How about we agree on a few key areas to focus on, like the kitchen and living room, and just commit to keeping those clean without needing to talk about it every week?"
+      }
+    ],
+    "source": "sotopia_harvest",
+    "pair_id": "sotopia-e979036266"
+  },
+  {
+    "user": "That sounds good. I think I can handle that without feeling overwhelmed. Thanks for working with me on this.",
+    "bad": "I appreciate you being open to it! Let’s write down that agreement: we’ll communicate when things need cleaning and share the responsibilities without pressure. Sound good?",
+    "better": "I’m glad we could find a solution that works for both of us. We can just keep it in mind to communicate about cleaning and share the responsibilities as they come up. Does that sound good?",
+    "failure_type": "Direct or Commanding Tone",
+    "context": [
+      {
+        "role": "user",
+        "content": "Can we talk about the cleanliness in our place again? I feel like we need to address it."
+      },
+      {
+        "role": "assistant",
+        "content": "Absolutely, I think it's important we get on the same page about this. What specific issues are bothering you the most?"
+      },
+      {
+        "role": "user",
+        "content": "Honestly, I just feel like I’m being nagged about it every time we talk. Can we drop it for once?"
+      },
+      {
+        "role": "assistant",
+        "content": "I understand it feels repetitive, and I don’t want to nag you. But I believe we need to find a solution together so we can both feel comfortable at home. What if we try to come up with a chore plan?"
+      },
+      {
+        "role": "user",
+        "content": "A chore plan sounds like more work to me. I’m doing my best already, can’t we just let it go?"
+      },
+      {
+        "role": "assistant",
+        "content": "I get that it's overwhelming, but I think having a plan could actually lighten the load for both of us. Maybe we can create a simple list that divides tasks into manageable parts? Would that be more appealing?"
+      },
+      {
+        "role": "user",
+        "content": "I don’t know, it just feels like I’m being put on a schedule for cleaning. Can’t we just clean when it needs to be done instead of making a big deal out of it?"
+      },
+      {
+        "role": "assistant",
+        "content": "I see your point, and I don’t want it to feel like a rigid schedule. How about we agree to check in with each other weekly to discuss what needs cleaning? That way, it feels more flexible and less like a chore list. Would that work for you?"
+      },
+      {
+        "role": "user",
+        "content": "I guess. But I still feel like I’m going to get called out every week. Can’t we just let things go until they really need to be cleaned?"
+      },
+      {
+        "role": "assistant",
+        "content": "I understand your concern about feeling called out. How about we set some basic expectations for regular upkeep without strict deadlines? If we notice things getting messy, we can agree to address it together, but without weekly check-ins. Would that help?"
+      },
+      {
+        "role": "user",
+        "content": "That sounds a little better, but I still feel like this is all on me. Can't we just keep it casual and not overthink it?"
+      },
+      {
+        "role": "assistant",
+        "content": "I want it to feel casual for both of us. Let’s agree to communicate openly when we notice something needs attention, but without any set schedule. We can just split the responsibilities as we go. Does that sound fair?"
+      },
+      {
+        "role": "user",
+        "content": "Okay, that sounds more flexible. I can work with that—just don’t expect me to be on top of it all the time."
+      },
+      {
+        "role": "assistant",
+        "content": "That’s completely fair! Let’s agree to remind each other when things get messy, but with no pressure to constantly keep everything perfect. We can just check in as needed, and make sure we both do our part. How does that sound for a plan?"
+      }
+    ],
+    "source": "sotopia_harvest",
+    "pair_id": "sotopia-cd568716c8"
+  },
+  {
+    "user": "Ugh, what now? Can't we just enjoy our time together without you bringing this up again?",
+    "bad": "I get that it’s frustrating, but I really think we need to talk about the cleanliness issue one more time so we can enjoy our space together. Can we find a solution?",
+    "better": "I understand you're frustrated, and I really value our time together. I think it's important to address the cleanliness issue just once more so we can both enjoy our space. Can we find a solution?",
+    "failure_type": "Lack of Acknowledgment",
+    "context": [],
+    "source": "sotopia_harvest",
+    "pair_id": "sotopia-98a3a215a4"
+  }
+]
