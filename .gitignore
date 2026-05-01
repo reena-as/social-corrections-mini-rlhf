@@ -26,6 +26,7 @@ src/tinker-cookbook/
 # Local data + artifacts
 data/processed/*
 !data/processed/plots/
+!data/processed/final_paper/
 data/raw/
 models/
 /tmp/

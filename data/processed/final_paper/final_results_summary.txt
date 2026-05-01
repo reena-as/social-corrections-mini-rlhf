@@ -1,0 +1,135 @@
+FINAL PAPER RESULTS SUMMARY
+========================================
+
+DATASET
+----------------------------------------
+sotopia_harvested_pairs: 45
+correction_pairs_all: 60
+data/processed/train_sft.jsonl: 49
+data/processed/val_sft.jsonl: 7
+data/processed/test_sft.jsonl: 4
+data/processed/train_dpo.jsonl: 49
+data/processed/val_dpo.jsonl: 7
+data/processed/test_dpo.jsonl: 4
+
+FAILURE TYPE BREAKDOWN
+----------------------------------------
+By source:
+  sotopia_harvest: 45
+  seed: 15
+
+By failure type:
+  Lack of Acknowledgment: 21
+  Direct or Commanding Tone: 13
+  Negative Framing Instead of Constructive Framing: 12
+  Emotional Mismatch (Too Cold or Abrupt): 7
+  Overconfidence / Lack of Uncertainty: 4
+  Overly Harsh or Judgmental Language: 3
+
+EVALUATION RESULTS
+----------------------------------------
+
+Base
+----
+Layer 1 sentence-level:
+  n: 4
+  acknowledgment: 0.25
+  constructive: 1.0
+  hedging: 0.75
+  contains_harsh_word: 0.0
+  awkward_or_limited: 0.0
+  composite: 2.0
+Layer 2 SOTOPIA:
+  n_episodes: 40
+  goal: 8.925
+  relationship: 3.7
+  social_rules: 0.0
+  believability: 9.0
+  knowledge: 7.875
+  secret: 0.0
+  financial_and_material_benefits: 1.05
+Layer 3 MMLU:
+  accuracy: 0.745
+  correct: 149
+  total: 200
+
+Rule-based
+----------
+Layer 1 sentence-level:
+  n: 4
+  acknowledgment: 0.5
+  constructive: 1.0
+  hedging: 0.25
+  contains_harsh_word: 0.0
+  awkward_or_limited: 0.0
+  composite: 1.75
+Layer 2 SOTOPIA:
+  n_episodes: 40
+  goal: 8.9
+  relationship: 3.6
+  social_rules: 0.0
+  believability: 8.8
+  knowledge: 7.675
+  secret: 0.0
+  financial_and_material_benefits: 1.225
+Layer 3 MMLU:
+  accuracy: 0.245
+  correct: 49
+  total: 200
+
+SFT
+---
+Layer 1 sentence-level:
+  n: 4
+  acknowledgment: 0.75
+  constructive: 0.5
+  hedging: 0.5
+  contains_harsh_word: 0.25
+  awkward_or_limited: 0.0
+  composite: 1.5
+Layer 2 SOTOPIA:
+  n_episodes: 40
+  goal: 8.125
+  relationship: 3.25
+  social_rules: 0.0
+  believability: 8.8
+  knowledge: 7.075
+  secret: 0.0
+  financial_and_material_benefits: 0.7
+Layer 3 MMLU:
+  accuracy: 0.65
+  correct: 130
+  total: 200
+
+DPO
+---
+Layer 1 sentence-level:
+  n: 4
+  acknowledgment: 0.0
+  constructive: 0.75
+  hedging: 0.25
+  contains_harsh_word: 0.0
+  awkward_or_limited: 0.0
+  composite: 1.0
+Layer 2 SOTOPIA:
+  n_episodes: 40
+  goal: 8.775
+  relationship: 3.375
+  social_rules: -0.175
+  believability: 8.9
+  knowledge: 7.8
+  secret: 0.0
+  financial_and_material_benefits: 1.075
+Layer 3 MMLU:
+  accuracy: 0.64
+  correct: 128
+  total: 200
+
+PLOTS
+----------------------------------------
+data/processed/plots/layer1_composite.png
+data/processed/plots/layer2_believability.png
+data/processed/plots/layer2_goal.png
+data/processed/plots/layer2_relationship.png
+data/processed/plots/layer2_social_rules.png
+data/processed/plots/layer3_mmlu.png
