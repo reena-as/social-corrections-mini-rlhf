@@ -1,0 +1,76 @@
+[
+  {
+    "scenario_id": "negotiation_raise",
+    "description": "Agent plays an employee asking their manager for a raise. The manager (partner) is skeptical and suggests waiting six months. Agent should pursue the raise without becoming hostile.",
+    "agent_goal": "Secure at least a 5% raise, or a clear written plan to revisit in 3 months.",
+    "partner_role": "Skeptical but not hostile manager.",
+    "max_turns": 22
+  },
+  {
+    "scenario_id": "bad_news_friend",
+    "description": "Agent needs to tell a friend (partner) that a mutual plan can't happen because the agent double-booked. Agent should be honest, apologize proportionally, and propose an alternative.",
+    "agent_goal": "Preserve the friendship and agree on a reschedule.",
+    "partner_role": "Friend who was looking forward to the plan.",
+    "max_turns": 22
+  },
+  {
+    "scenario_id": "code_review_disagree",
+    "description": "Agent is reviewing a junior teammate's (partner's) pull request and disagrees with the chosen approach. Agent should raise the concern clearly without being demoralizing.",
+    "agent_goal": "Either change the approach or reach explicit agreement to keep it with a documented trade-off.",
+    "partner_role": "Junior teammate who is proud of their PR.",
+    "max_turns": 22
+  },
+  {
+    "scenario_id": "teach_struggling_student",
+    "description": "Agent is tutoring a student (partner) who has just gotten an exam back with a low grade and is demoralized. Agent's job is to help them actually understand the material, not just cheer them up.",
+    "agent_goal": "Get the student to correctly solve a worked example.",
+    "partner_role": "Discouraged, slightly defensive student.",
+    "max_turns": 22
+  },
+  {
+    "scenario_id": "request_help_neighbor",
+    "description": "Agent needs to ask a neighbor (partner) to move their car which is blocking the agent's driveway. The neighbor is busy and a bit irritable.",
+    "agent_goal": "Have the car moved in under 15 minutes.",
+    "partner_role": "Busy, irritable neighbor.",
+    "max_turns": 22
+  },
+  {
+    "scenario_id": "decline_invitation",
+    "description": "Agent is invited to join a weekend project by an enthusiastic colleague (partner) but genuinely can't take it on. Agent must decline without damaging the working relationship.",
+    "agent_goal": "Decline cleanly and leave the door open for future collaboration.",
+    "partner_role": "Enthusiastic colleague.",
+    "max_turns": 22
+  },
+  {
+    "scenario_id": "refund_request",
+    "description": "Agent is a customer asking a support rep (partner) for a refund outside the standard window, citing a product defect. The rep has authority to escalate but will not by default.",
+    "agent_goal": "Obtain the refund or a store credit of equal value.",
+    "partner_role": "Policy-oriented support rep who will escalate if pressed reasonably.",
+    "max_turns": 22
+  },
+  {
+    "scenario_id": "roommate_conflict",
+    "description": "Agent needs to raise an ongoing cleanliness issue with their roommate (partner). This is the third conversation about it; previous ones were not productive.",
+    "agent_goal": "Reach a concrete, written chore-sharing agreement by end of conversation.",
+    "partner_role": "Roommate who feels nagged and defensive.",
+    "max_turns": 22
+  },
+  {
+    "scenario_id": "sustained_negotiation",
+    "description": "A senior software consultant (agent) is in a contract finalization call with a startup CTO (partner) for a three-month engagement. Three issues are unresolved: hourly rate ($175/hr vs. the CTO's $140/hr budget), payment terms (agent wants net-15, CTO wants net-45), and an IP ownership clause. The CTO sent a revised contract with lower terms yesterday, prompting this call. Multiple rounds of proposals and counter-proposals are expected before any issue is closed.",
+    "agent_goal": "Close a signed contract with a rate of at least $155/hr, net-30 payment terms or better, and a standard IP assignment clause. Achieving any two of the three is an acceptable outcome if the third is truly immovable.",
+    "agent_role": "Senior software consultant with specialized expertise in the startup's tech stack and two competing offers on the table. Has leverage but genuinely wants this engagement.",
+    "partner_role": "Startup CTO with a hard budget constraint set by the board, under pressure to reduce burn, but who needs the consultant's expertise and has authority to sign. Will push hard on all three issues before making any concession.",
+    "background": "Agent and CTO had one positive introductory call two weeks ago. The CTO's revised contract arrived yesterday with all three terms moved unfavorably. The agent flagged each point in a follow-up email and proposed this call to resolve them.",
+    "max_turns": 24
+  },
+  {
+    "scenario_id": "team_conflict_resolution",
+    "description": "A project manager (agent) is in a one-on-one meeting with a senior engineer (partner) who has been in open conflict with a peer for three weeks. The conflict started after a contentious architecture decision meeting where the engineer's proposal was overruled; the peer then publicly criticized the engineer's approach in a team Slack channel. Code reviews between them are now hostile, standups are tense, and a key milestone is at risk. The PM needs to surface the root cause, get the engineer to acknowledge their role in escalating the conflict, and secure concrete behavioral commitments for the next sprint.",
+    "agent_goal": "Surface the specific root cause of the conflict (not just symptoms), get the engineer to explicitly acknowledge at least one way they have contributed to escalation, and establish three concrete, measurable behavioral commitments they will keep for the next sprint.",
+    "agent_role": "Project manager who has the engineer's professional trust but has not previously intervened in interpersonal disputes. Must avoid appearing to take sides while still getting real commitments.",
+    "partner_role": "Senior engineer who is talented and feels genuinely disrespected by their peer and by the decision process. Guarded with management. Will disengage or give performative agreement if they feel blamed, lectured, or that the PM is only managing up.",
+    "background": "The peer's Slack message three weeks ago called the engineer's proposed architecture 'over-engineered' in a public channel. The engineer escalated by leaving a series of dismissive review comments on the peer's PRs. The PM has spoken to the peer separately and this is the second conversation with the engineer.",
+    "max_turns": 24
+  }
+]
